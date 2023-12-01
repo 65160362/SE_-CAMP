@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#fff5ee">
+    <h1>Workshop #HTML - FORM</h1>
+    <form action="#">
+        <table>
+            <tr>
+            <td>ชื่อ</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>สกุล</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>วัน/เดือน/ปีเกิด</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>อายุ</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>เพศ</td>
+            <td><input id="radio_a" type="radio" name="sex">ชาย &nbsp;
+            <input id="radio_a" type="radio" name="sex">หญิง</td>
+        </tr>
+        <tr>
+            <td>รูป</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>ที่อยู่</td>
+            <td><textarea rows="4" placeholder="กรุณาป้อนข้อมูล"></textarea></td>
+        </tr>
+        <tr>
+            <td>สีที่ชอบ</td>
+            <td><select>
+                <option value=""
+                        disabled
+                        selected></option>
+                        <option>สีแดง</option>
+                        <option>สีชมพู</option>
+                        <option>สีส้ม</option>
+                        <option>สีเหลือง</option>
+                        <option>สีฟ้า</option>
+                        <option>สีน้ำเงิน</option>
+                        <option>สีม่วง</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>แนวเพลงที่ชอบ</td>
+            <td><input id="radio_a"
+                type="radio"
+                name="same_radio">เพื่อชีวิต &nbsp;
+                <input id="radio_a"
+                type="radio"
+                name="same_radio">ลูกทุ่ง &nbsp;
+                <input id="radio_a"
+                type="radio"
+                name="same_radio">อื่นๆ
+            </td>
+        </tr>
+        <tr>
+            <td><br><input type="checkbox"> ยินยอมให้เก็บข้อมูล</td>
+        </tr>
+        <tr>
+            <td><br><input type="reset" style="background-color: rgb(236, 116, 116);"></td>
+            <td><br><input type="submit" style="background-color: rgb(169, 244, 103)"></td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
